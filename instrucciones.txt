@@ -1,0 +1,22 @@
+crear folder node_react
+crear folder nodeapi
+correr npm init (dar enter todo el tiempo)
+
+
+`-------------crear a server-------------
+correr npm i express (esto crear el folder node modules)
+en package.json en "main" escribir "app.js"
+crear el archivo app.js
+
+'--------------Installar paquetes para el server
+correr npm i mongoose, morgan, dotenv
+
+create 
+
+mongoose.connect
+mongoose.connection.on
+const port =....
+app.listen()
+
+
+
