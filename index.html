@@ -15,7 +15,7 @@
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
    <style>
-       #mapid {height: 700px; width: 1100px;}
+       #mapid {height: 400px; width: 480px;}
    </style>
     <title>Coding Training</title>
 </head>
@@ -58,7 +58,7 @@
 <script>
 
 //making a map and tile
-const mymap = L.map('mapid',  {minZoom: 2,
+const mymap = L.map('mapid',  {minZoom: 1,
 maxZoom: 18, 
 maxBoundsViscosity: 0}).setView([40, 3], 1);
 const attribution = '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
@@ -117,7 +117,7 @@ async function getSpaceData() {
      mymap.setView([latitude, longitude], 7);
     }else {
     //if focus is EARTHT
-        mymap.setView([40, 3], 1);
+        mymap.setView([40, 20], 0);
     }
     //  console.log(label);     
  }
